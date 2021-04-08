@@ -1,0 +1,14 @@
+diff --git a/node_modules/vfile/lib/core.js b/node_modules/vfile/lib/core.js
+index 891bb1a..853e623 100644
+--- a/node_modules/vfile/lib/core.js
++++ b/node_modules/vfile/lib/core.js
+@@ -1,7 +1,7 @@
+ 'use strict'
+ 
+-var p = require('./minpath')
+-var proc = require('./minproc')
++var p = require('./minpath.browser')
++var proc = require('./minproc.browser')
+ var buffer = require('is-buffer')
+ 
+ module.exports = VFile

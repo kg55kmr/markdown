@@ -1,0 +1,24 @@
+{
+  "name": "markdown",
+  "version": "1.0.0",
+  "svelte": "src/markdown.svelte",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^18.0.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^11.2.1",
+    "esbuild": "^0.11.6",
+    "rehype-raw": "^5.1.0",
+    "remark-frontmatter": "^3.0.0",
+    "remark-parse": "^9.0.0",
+    "remark-rehype": "^8.0.0",
+    "rollup": "^2.44.0",
+    "rollup-plugin-esbuild": "^3.0.2",
+    "rollup-plugin-node-polyfills": "^0.2.1",
+    "svelte": "^3.37.0",
+    "unified": "^9.2.1"
+  }
+}
