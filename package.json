@@ -4,13 +4,15 @@
   "svelte": "src/markdown.svelte",
   "type": "module",
   "scripts": {
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "postinstall": "patch-package"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^18.0.0",
     "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^11.2.1",
     "esbuild": "^0.11.6",
+    "patch-package": "^6.4.7",
     "rehype-raw": "^5.1.0",
     "remark-frontmatter": "^3.0.0",
     "remark-parse": "^9.0.0",
