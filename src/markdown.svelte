@@ -24,6 +24,8 @@
   import H2 from "./components/h2.svelte";
   import H3 from "./components/h3.svelte";
   import H4 from "./components/h4.svelte";
+  import H5 from "./components/h5.svelte";
+  import H6 from "./components/h6.svelte";
 
   export let source;
   export let components = {};
@@ -44,8 +46,8 @@
     h2: H2,
     h3: H3,
     h4: H4,
-    h5: Hn,
-    h6: Hn,
+    h5: H5,
+    h6: H6,
   };
 </script>
 
