@@ -20,6 +20,10 @@
   import Em from "./components/em.svelte";
   import Strong from "./components/strong.svelte";
   import Hr from "./components/hr.svelte";
+  import H1 from "./components/h1.svelte";
+  import H2 from "./components/h2.svelte";
+  import H3 from "./components/h3.svelte";
+  import H4 from "./components/h4.svelte";
 
   export let source;
   export let components = {};
@@ -36,6 +40,12 @@
     em: Em,
     strong: Strong,
     hr: Hr,
+    h1: H1,
+    h2: H2,
+    h3: H3,
+    h4: H4,
+    h5: Hn,
+    h6: Hn,
   };
 </script>
 

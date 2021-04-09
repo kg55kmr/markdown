@@ -13,6 +13,6 @@
       {/if}
     </svelte:component>
   {:else}
-    unknown tag: {node.tagName}
+    {@html node.tagName}
   {/if}
 {/each}
