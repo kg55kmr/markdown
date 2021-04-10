@@ -26,6 +26,7 @@
   import H4 from "./components/h4.svelte";
   import H5 from "./components/h5.svelte";
   import H6 from "./components/h6.svelte";
+  import Br from "./components/br.svelte";
 
   export let source;
   export let components = {};
@@ -48,6 +49,7 @@
     h4: H4,
     h5: H5,
     h6: H6,
+    br: Br,
   };
 </script>
 
