@@ -13,6 +13,6 @@
       {/if}
     </svelte:component>
   {:else}
-    {@html node.tagName}
+    !!! {node.tagName} !!!
   {/if}
 {/each}
